@@ -74,29 +74,43 @@ Heart Disease UCI Dataset (297 rows, 14 features)
 
 Features include:
 
-*Age
+* Age
 
-*Sex
-*Chest Pain Type (cp)
+* Sex
+  
+* Chest Pain Type (cp)
 
-*Resting Blood Pressure (trestbps)
-*Cholesterol (chol)
-*Fasting Blood Sugar (fbs)
-*Resting ECG (restecg)
-*Maximum Heart Rate (thalach)
-*Exercise Induced Angina (exang)
-*ST Depression (oldpeak)
-*Slope
-*Number of Major Vessels (ca)
-*Thalassemia (thal)
-*Target Variable: condition
+* Resting Blood Pressure (trestbps)
+
+* Cholesterol (chol)
+
+* Fasting Blood Sugar (fbs)
+
+* Resting ECG (restecg)
+
+* Maximum Heart Rate (thalach)
+
+* Exercise Induced Angina (exang)
+
+* ST Depression (oldpeak)
+
+* Slope
+
+* Number of Major Vessels (ca)
+
+* Thalassemia (thal)
+
+* Target Variable: condition
 
 **🔎 Exploratory Data Analysis (EDA)**
 
-*Checked class distribution
-*Generated correlation heatmap
-*Analyzed feature relationships with heart disease
-*Verified dataset had no missing values
+* Checked class distribution
+
+* Generated correlation heatmap
+
+* Analyzed feature relationships with heart disease
+
+* Verified dataset had no missing values
 
 **🤖 Model Used**
 
@@ -110,8 +124,11 @@ The model shows strong ability to distinguish between patients with and without 
  Confusion Matrix Results:
  
 True Negatives: 23
+
 False Positives: 9
+
 False Negatives: 7
+
 True Positives: 21
 
 The model performs well, though reducing False Negatives is important in medical applications.
@@ -119,11 +136,15 @@ The model performs well, though reducing False Negatives is important in medical
 
 The most influential features were:
 
-*Sex
-*Number of Major Vessels (ca)
-*Thalassemia (thal)
-*Exercise-induced angina (exang)
-*ST depression (oldpeak)
+* Sex
+
+* Number of Major Vessels (ca)
+
+* Thalassemia (thal)
+
+* Exercise-induced angina (exang)
+
+* ST depression (oldpeak)
 
 These features significantly impact heart disease prediction.
 
