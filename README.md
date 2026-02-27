@@ -75,8 +75,10 @@ Heart Disease UCI Dataset (297 rows, 14 features)
 Features include:
 
 *Age
+
 *Sex
 *Chest Pain Type (cp)
+
 *Resting Blood Pressure (trestbps)
 *Cholesterol (chol)
 *Fasting Blood Sugar (fbs)
