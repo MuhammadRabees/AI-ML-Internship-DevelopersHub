@@ -151,6 +151,3 @@ These features significantly impact heart disease prediction.
 Generated realistic next-day price predictions
 
 Visualization confirmed prediction trend alignment with actual values
-
-**Conclusion:**
-Random Forest performed well for short-term prediction because it can capture nonlinear relationships in financial data.
