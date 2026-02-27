@@ -65,6 +65,66 @@ Random Forest Regressor
 
 Model successfully learned price patterns from historical data
 
+# 📊 Task 3: Heart Disease Prediction
+**📌 Objective**
+Build a machine learning model to predict whether a person is at risk of heart disease based on medical attributes.
+
+**📊 Dataset**
+Heart Disease UCI Dataset (297 rows, 14 features)
+
+Features include:
+
+*Age
+*Sex
+*Chest Pain Type (cp)
+*Resting Blood Pressure (trestbps)
+*Cholesterol (chol)
+*Fasting Blood Sugar (fbs)
+*Resting ECG (restecg)
+*Maximum Heart Rate (thalach)
+*Exercise Induced Angina (exang)
+*ST Depression (oldpeak)
+*Slope
+*Number of Major Vessels (ca)
+*Thalassemia (thal)
+*Target Variable: condition
+
+**🔎 Exploratory Data Analysis (EDA)**
+
+*Checked class distribution
+*Generated correlation heatmap
+*Analyzed feature relationships with heart disease
+*Verified dataset had no missing values
+
+**🤖 Model Used**
+
+Logistic Regression
+
+**🔥 Key Results and Findings**
+
+ ROC-AUC Score: 0.837
+The model shows strong ability to distinguish between patients with and without heart disease.
+
+ Confusion Matrix Results:
+ 
+True Negatives: 23
+False Positives: 9
+False Negatives: 7
+True Positives: 21
+
+The model performs well, though reducing False Negatives is important in medical applications.
+
+
+The most influential features were:
+
+*Sex
+*Number of Major Vessels (ca)
+*Thalassemia (thal)
+*Exercise-induced angina (exang)
+*ST depression (oldpeak)
+
+These features significantly impact heart disease prediction.
+
 Generated realistic next-day price predictions
 
 Visualization confirmed prediction trend alignment with actual values
